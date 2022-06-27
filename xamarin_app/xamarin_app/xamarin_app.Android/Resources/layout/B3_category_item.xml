@@ -1,0 +1,52 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="150px"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:id="@+id/imageView1"
+        android:minHeight="70dp"
+        android:minWidth="50dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:scaleType="fitCenter"/>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_vertical"
+        >
+        <TextView
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            
+            android:layout_toStartOf="@id/categoryStatusImg"
+            android:id="@+id/textView1" />
+        <ImageView
+            android:layout_width="70px"
+            android:layout_height="70px"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:id="@+id/categoryStatusImg"
+            android:src="@android:color/transparent"
+        />
+    </RelativeLayout>
+        
+    </LinearLayout>

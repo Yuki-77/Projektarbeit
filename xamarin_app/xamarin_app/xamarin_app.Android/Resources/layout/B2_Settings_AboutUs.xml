@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Über uns"
+        android:background="#8ED7F4"
+        android:textColor="@android:color/white" />
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="Welcome to Bavaria"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:textColor="#8ED7F4" />
+            <TextView
+                android:text="test"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:id="@+id/welcomeToBavariaTextView" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_marginTop="10dp"
+                android:background="#8ED7F4" />
+            <TextView
+                android:text="Das Team"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:textColor="#8ED7F4" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="#A0A0A0" />
+            <TextView
+                android:text="Philipps-Universität Marburg"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp" />
+            <TextView
+                android:text="Koordination und Betreuung"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp" />
+            <TextView
+                android:text="Dr. Hanna Fischer, Prof. Dr. Christoph Bockisch, Dr. Peter Kaspar"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:breakStrategy="balanced" />
+            <TextView
+                android:text="Systementwicklung"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp" />
+            <TextView
+                android:text="Benedikt Batton, Lester Brühler, Lea Fischbach, Hannah Greß, Anh-Thy Truong, Qi Yu"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:breakStrategy="balanced" />
+            <TextView
+                android:text="Übersetzungen"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp" />
+            <TextView
+                android:text="Arabisch: Clara Mikhail, Englisch: Dr. Jeffrey Pheiff, Tschechisch: Mgr. Andrea Königsmarková, Ph.D"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:breakStrategy="balanced" />
+            <TextView
+                android:text="Sprachaufnahmen"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp" />
+            <TextView
+                android:text="Christian Ferstl, M.A. "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:breakStrategy="balanced" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:breakStrategy="balanced"
+                android:id="@+id/noteTextView" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="#A0A0A0" />
+            <TextView
+                android:text="Staatliche Berufliche Oberschule Kelheim"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp" />
+            <TextView
+                android:text="Beteiligte Lehrkräfte"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp" />
+            <TextView
+                android:text="Daniela von Schultz, Dr. Peter Kaspar"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:breakStrategy="balanced" />
+            <TextView
+                android:text="Beteiligte Schüler/-innen im Schuljahr 2016/17"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp" />
+            <TextView
+                android:text="Karam Alayoubi, Sali AlBoulad, Yazan Aljleilati, Ahmad AlShalabi, Mustafa AlShalabi, Arreeya Banlo, Anita Blaha, Nicolas Bruckmaier, Florian Fahle, Nico Fichte, Lukas Fischer, Tina Föhre, Nico Horn, Aisa Jusic, Alexej Kobzev, Karina Kluger, Max Kohlmeier, Samuel Konschelle, Damian Kowalski, Andreas Lening, Laura Lohwasser, Markus Müller, Felix Neuhauser, Franziska Nigl, David Nguyen, Samuel Noy, Daniel Rißmann-Toledo, Lena Ritzinger, Anna Roidl, Joshua-David Roland, Heba Sandafi, Julian Schanderl, Andreas Stemmer, Wahyu Susilo, Liviu Vasiu, Mihai Vasiu, Maria Waldhier, Markus Weber, Stefanie Weber, Amadeus-Daniel Wiselka, Burak Yılmaz, Andreas Zellner, Tobias Zinkl, Thomas Zirmer"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:breakStrategy="balanced" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_marginTop="10dp"
+                android:background="#8ED7F4" />
+            <TextView
+                android:text="Danke!"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:textColor="#8ED7F4" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:breakStrategy="balanced"
+                android:id="@+id/thanksTextView" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

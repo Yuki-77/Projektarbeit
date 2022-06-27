@@ -1,0 +1,120 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="250dp"
+             android:gravity="center_horizontal">
+        <ImageView
+            android:src="@drawable/header"
+            android:layout_width="match_parent"
+            android:layout_height="362.0dp"
+            android:minWidth="227px"
+            android:minHeight="227px"
+        android:id="@+id/headerImgView"/>
+
+        <ImageButton
+        android:layout_x="285dp"
+        android:src="@drawable/icon_settings"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:padding="5dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/settingsButton"
+        android:layout_alignRight="@id/headerImgView"
+        android:onClick="GoToEinstellung"
+       />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_x="0dp"
+        android:layout_y="350dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/lernenButton"
+        android:clickable="true"
+        android:focusable="true">
+        <ImageView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:id="@+id/lernenImg"
+            android:minHeight="70dp"
+            android:minWidth="50dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/icon_listening"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lernenTextView"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:text="Lernen"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lernenText" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_y="400dp"
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/abfragenButton"
+        android:clickable="true"
+        android:focusable="true">>
+        <ImageView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:id="@+id/abfrageImg"
+            android:minHeight="70dp"
+            android:minWidth="50dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/icon_thinking"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/abfrageTextView"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:text="Abfragen"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/abfrageText" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

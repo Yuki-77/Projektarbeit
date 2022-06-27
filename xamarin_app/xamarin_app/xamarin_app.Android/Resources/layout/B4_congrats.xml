@@ -1,0 +1,205 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frameLayout">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:id="@+id/space1" />
+            <TextView
+                android:text="Herzlichen"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:gravity="center_horizontal"
+                android:id="@+id/textView1"
+                android:textSize="@dimen/abc_action_button_min_width_overflow_material" />
+            <TextView
+                android:text="Glückwünsch!"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:gravity="center_horizontal"
+                android:id="@+id/textView2"
+                android:textSize="@dimen/abc_action_button_min_width_overflow_material" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:id="@+id/space7" />
+
+            <TextView
+                android:text="Du hast die Kategorie"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:id="@+id/textViewSuccessfull1"
+                android:textSize="@dimen/abc_dialog_padding_material"
+                android:textColor="#F9CD18" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:visibility="gone"
+                android:id="@+id/correctOnesLayout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mit "
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textColor="#F9CD18"
+                    android:id="@+id/with"
+            />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textColor="#F9CD18"
+                    android:id="@+id/correctItemsText"
+            />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="/"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textColor="#F9CD18"
+            />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="15"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textColor="#F9CD18"
+                    android:id="@+id/maxItemsText"
+            />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text=" Richtigen"
+                    android:textSize="@dimen/abc_dialog_padding_material"
+                    android:textColor="#F9CD18"
+                    android:id="@+id/rightOnes"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="erfolgreich abgeschlossen."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:id="@+id/textViewSuccesfull2"
+                android:textColor="#F9CD18"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:id="@+id/space2" />
+            <LinearLayout
+                android:layout_y="400dp"
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/goToAbfrageButton"
+                android:clickable="true"
+                android:focusable="true">
+                <ImageView
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:id="@+id/abfrageImg"
+                    android:minHeight="70dp"
+                    android:minWidth="50dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/icon_thinking"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/abfrageTextView"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_vertical">
+                    <TextView
+                        android:text="Direkt Abfragen"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/abfrageText" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/goToMainButton"
+                android:clickable="true"
+                android:focusable="true">
+                <ImageView
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:id="@+id/mainMenuImg"
+                    android:minHeight="70dp"
+                    android:minWidth="50dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/icon_home"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mainMenuTextView"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_vertical">
+                    <TextView
+                        android:text="Zum Hauptmenü"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mainMenuText" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <nl.dionsegijn.konfetti.KonfettiView
+            android:id="@+id/konfettiView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+</ScrollView>

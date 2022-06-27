@@ -1,0 +1,12 @@
+E:\Projektarbeit-Master\xamarin_app\xamarin_app\xamarin_app\bin\Debug\netstandard2.0\xamarin_app.deps.json
+E:\Projektarbeit-Master\xamarin_app\xamarin_app\xamarin_app\bin\Debug\netstandard2.0\xamarin_app.dll
+E:\Projektarbeit-Master\xamarin_app\xamarin_app\xamarin_app\bin\Debug\netstandard2.0\xamarin_app.pdb
+E:\Projektarbeit-Master\xamarin_app\xamarin_app\xamarin_app\obj\Debug\netstandard2.0\xamarin_app.csprojAssemblyReference.cache
+E:\Projektarbeit-Master\xamarin_app\xamarin_app\xamarin_app\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Projektarbeit-Master\xamarin_app\xamarin_app\xamarin_app\obj\Debug\netstandard2.0\MainMenuPage.xaml.g.cs
+E:\Projektarbeit-Master\xamarin_app\xamarin_app\xamarin_app\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+E:\Projektarbeit-Master\xamarin_app\xamarin_app\xamarin_app\obj\Debug\netstandard2.0\xamarin_app.AssemblyInfoInputs.cache
+E:\Projektarbeit-Master\xamarin_app\xamarin_app\xamarin_app\obj\Debug\netstandard2.0\xamarin_app.AssemblyInfo.cs
+E:\Projektarbeit-Master\xamarin_app\xamarin_app\xamarin_app\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Projektarbeit-Master\xamarin_app\xamarin_app\xamarin_app\obj\Debug\netstandard2.0\xamarin_app.dll
+E:\Projektarbeit-Master\xamarin_app\xamarin_app\xamarin_app\obj\Debug\netstandard2.0\xamarin_app.pdb

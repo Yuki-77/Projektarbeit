@@ -1,0 +1,108 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:minWidth="250px"
+                    android:minHeight="250px"
+                    android:id="@+id/vocabImg"/>
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:background="@android:color/white"
+                    android:visibility="invisible"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:id="@+id/popUpTextView"/>
+            </RelativeLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:id="@+id/space1" />
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:text="bairisch"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/textBairisch" />
+                <ImageButton
+                    android:src="@drawable/icon_info"
+                    android:layout_toRightOf="@id/textBairisch"
+                    android:layout_alignBottom="@id/textBairisch"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"
+                    android:background="@android:color/transparent"
+                    android:id="@+id/infoButton"
+                    android:onClick="GoToPopup"/>
+            </RelativeLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:id="@+id/space2" />
+            <TextView
+                android:gravity="center_horizontal"
+                android:text="hochdeutsch"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textHochdeutsch" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:id="@+id/space3" />
+            <TextView
+                android:gravity="center_horizontal"
+                android:text="arabisch"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textArabisch" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:id="@+id/space4" />
+            <ImageButton
+                android:src="@drawable/playbuttonactive"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/playSoundButton" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

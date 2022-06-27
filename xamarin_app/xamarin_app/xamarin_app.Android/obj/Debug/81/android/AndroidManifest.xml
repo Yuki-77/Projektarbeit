@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.xamarin_app">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <application android:label="xamarin_app.Android" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="AboutUsActivity" android:theme="@style/MainTheme" android:name="md5a7107fb84d75b41c4deec5807ba26fc9.AboutUsActivity" />
+    <activity android:label="ReferenceActivity" android:theme="@style/MainTheme" android:name="md5a7107fb84d75b41c4deec5807ba26fc9.ReferenceActivity" />
+    <activity android:label="AbfragenActivity" android:theme="@style/MainTheme" android:name="md5a7107fb84d75b41c4deec5807ba26fc9.TestActivity" />
+    <activity android:label="EinstellungActivity" android:theme="@style/MainTheme" android:name="md5a7107fb84d75b41c4deec5807ba26fc9.SettingsActivity" />
+    <activity android:icon="@mipmap/icon2" android:label="Welcome To Bavaria" android:theme="@style/SplashTheme" android:name="md5a7107fb84d75b41c4deec5807ba26fc9.SplashActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="CongratulationsActivity" android:theme="@style/MainTheme" android:name="md5a7107fb84d75b41c4deec5807ba26fc9.CongratulationsActivity" />
+    <activity android:label="ChooseCategoryActivity" android:theme="@style/MainTheme" android:name="md5a7107fb84d75b41c4deec5807ba26fc9.ChooseActivity" />
+    <activity android:label="LearnActivity" android:theme="@style/MainTheme" android:name="md5a7107fb84d75b41c4deec5807ba26fc9.LearnActivity" />
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon2" android:label="Welcome To Bavaria" android:theme="@style/MainTheme" android:name="md5a7107fb84d75b41c4deec5807ba26fc9.MainActivity" />
+    <service android:name="md5dcb6eccdc824e0677ffae8ccdde42930.KeepAliveService" />
+    <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.BatteryBroadcastReceiver" />
+    <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.EnergySaverBroadcastReceiver" />
+    <receiver android:enabled="true" android:exported="false" android:label="Essentials Connectivity Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.ConnectivityBroadcastReceiver" />
+    <receiver android:enabled="true" android:exported="false" android:name="md51558244f76c53b6aeda52c8a337f2c37.PowerSaveModeBroadcastReceiver" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.companyname.xamarin_app.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.xamarin_app" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

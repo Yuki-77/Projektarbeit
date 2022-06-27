@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarin_app.MainMenuPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame>
+                <Button Text="LERNEN  "
+                    Image="listening.png"
+                    VerticalOptions="CenterAndExpand"
+                    BackgroundColor="White"
+                    HorizontalOptions="Fill"
+                    ContentLayout="Left, 50"
+                    Clicked="GoToLernen"/>
+            </Frame>
+            <Frame>
+                <Button Text="ABFRAGEN  "
+                    Image="thinking.png"
+                    VerticalOptions="CenterAndExpand"
+                    BackgroundColor="White"
+                    HorizontalOptions="Fill"
+                    ContentLayout="Left, 50"
+                    Clicked="GotoAbfragen"/>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

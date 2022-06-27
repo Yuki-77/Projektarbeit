@@ -1,0 +1,1 @@
+<resources><style name="Theme.Custom" parent="android:Theme.DeviceDefault"><item name="android:colorBackground" /><item name="android:windowBackground" /></style></resources>
